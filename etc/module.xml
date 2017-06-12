@@ -3,6 +3,7 @@
 	<module name="Experius_FileManager" setup_version="1.0.0">
 		<sequence>
 			<module name="Magento_Cms"/>
+			<module name="Experius_WysiwygDownloads"/>
 		</sequence>
 	</module>
 </config>

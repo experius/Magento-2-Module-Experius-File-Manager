@@ -1,0 +1,27 @@
+//
+//  Common
+//  _____________________________________________
+
+& when (@media-common = true) {
+  .filemanager-wysiwyg-images-index {
+    #container .side-col {
+      &:extend(.modal-slide .side-col);
+    }
+
+    #container .main-col {
+      &:extend(.modal-slide .main-col);
+    }
+
+    .insert-title-inner {
+      &:extend(.modal-slide .magento-message .insert-title-inner);
+    }
+
+    .title {
+      &:extend(.modal-slide .magento-message .title);
+    }
+
+    .insert-actions {
+      &:extend(.modal-slide .magento-message .insert-actions);
+    }
+  }
+}

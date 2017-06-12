@@ -13,7 +13,9 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
+    "require": {
+        "experius/module-wysiwygdownloads":"*"
+    },
     "autoload": {
         "psr-4": {
             "Experius\\FileManager\\": ""
