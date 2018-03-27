@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Acl/etc/acl.xsd">
+    <acl>
+        <resources>
+            <resource id="Magento_Backend::admin">
+                <resource id="Experius_FileManager::filemanager" title="Experius FileManager">
+                    <resource id="Experius_FileManager::wysiwyg_images_index" title="Wysiwyg Images" />
+                </resource>
+            </resource>
+        </resources>
+    </acl>
+</config>
